@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  # El nombre que usarás para referenciar esta ServiceAccount
+  name: usuariojp-serviceaccount
+  # Opcional: El namespace donde se creará. Si se omite, se usará 'default'.
+  namespace: usuariojp
